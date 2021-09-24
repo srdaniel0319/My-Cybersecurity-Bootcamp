@@ -67,9 +67,9 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Ansible allows you to configure machines remotely and consistently. Ansible can be used to configure multiple machines simultaneously.
 
 The playbook implements the following tasks:
-- Install docker.io using the apt module.
-- Install python3-pip using the apt module.
-- Increase the amount of virtual memory by using the command 'sysctl -w vm.max_map_count=262144', then specify 
+- Installs docker.io using the apt module.
+- Installs python3-pip using the apt module.
+- Increases the amount of virtual memory by using the command 'sysctl -w vm.max_map_count=262144', then specifies 
   the amount of virutal memory by using the systemctl module.
 - Uses the docker_container module to download and launch the docker elk container.
 
@@ -129,5 +129,4 @@ Docker:
 
 - Command to open a docker container:
      - $ sudo docker attach <container-name>
-
 
