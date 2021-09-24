@@ -125,8 +125,8 @@ Docker:
      - $ docker container list -a
 
 - Command to start a docker container:
-     - $ sudo docker start <container-name>
+     - $ sudo docker start container_name
 
 - Command to open a docker container:
-     - $ sudo docker attach <container-name>
+     - $ sudo docker attach container_name
 
